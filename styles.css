@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+   font-family: 'Open Sans',sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+    background-color: #DAEAF1;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: center;
+}
+
+.container .color {
+    list-style: none;
+    background-color: #fff;
+    margin: 15px;
+    padding: 7px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(52,87,220,0.08);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.container .color:hover {
+    transform: scale(1.05);
+}
+
+.color .rect-box {
+    width: 185px;
+    height: 188px;
+    background: #8A6CFF;
+}
+
+.color:hover .rect-box {
+    filter: brightness(106%);
+}
+
+.color .hex-value{
+    display: block;
+    font-size: 1.15rem;
+    font-weight: 500;
+    margin:12px 0 8px;
+    color: #444;
+    text-transform: uppercase;
+}
+
+.refresh-btn {
+    position:fixed;
+    left: 50%;
+    bottom: 40px;
+    outline: none;
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: 500;
+    background-color:#8A6CFF ;
+    border: 2px solid #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(52, 87, 220, 0.02);
+    transform: translateX(-50%);
+    padding: 22px, 40px;
+    height: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: transform 0.3s ease;
+}
+
+.refresh-btn:hover {
+    filter: brightness(110%);
+}
+
+@media screen and(max-width: 510px) {
+    .container {
+        margin: 10px;
+    }
+    .container .color {
+        margin: 8px;
+        padding: 5px;
+    }
+
+    .color .rect-box {
+        width: 145px;
+        height: 148px;
+    }
+
+    .color .hex-value {
+        font-size: 1.05rem;
+    }
+
+    .nav{
+        margin-left:0;
+    }
+     .name {
+        margin-left: 20px;
+    }
+    
+}
+
+.name {
+     margin-left: 20px;
+     color: #03001C;
+     cursor: pointer;
+     transition: transfrom 0.3s ease;
+     margin-right: 5px;
+}
+
+.name:hover {
+
+    transform: scale(1.05);
+}
+
+.nav{
+    margin: 0;
+    background-color: #6E85B7;
+    height: 50px;
+    display: flex;
+}
+
+.icon {
+    display: flex;
+    margin: 5px;
+    transition: transfrom 0.3s ease;
+    justify-content: center;      
+}
+
+.icon:hover {
+
+    transform: scale(1.05);
+}
+
+
