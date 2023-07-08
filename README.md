@@ -54,11 +54,9 @@ The Color Generator project is licensed under the [MIT License](LICENSE). Feel f
 
 ## Contact
 
-If you have any questions, suggestions, or feedback, please don't hesitate to contact the project maintainer at your-email@example.com.
+If you have any questions, suggestions, or feedback, please don't hesitate to contact the project maintainer at akshaybhat1206@gmail.com.
 
 Thank you for using the Color Generator! We hope it helps you in your design projects.
 
 Happy color generating!
 ```
-
-Feel free to replace the placeholders like `your-username`, `your-email@example.com`, and update any other information to suit your project's specifics.
