@@ -1,6 +1,6 @@
 # Color-Hex
-``
-The Color Generator is a web application built using HTML, CSS, and JavaScript that allows users to generate various sets of colors with corresponding hex codes. It enables users to easily copy the hex code to the clipboard by simply clicking on the color.
+
+The Color Generator is a web application built using HTML, CSS, and JavaScript that allows users to generate various sets of colors with corresponding hex codes. It lets users easily copy the hex code to the clipboard by clicking on the colour.
 
 ## Features
 
