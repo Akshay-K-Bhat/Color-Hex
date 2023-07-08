@@ -4,7 +4,7 @@ The Color Generator is a web application built using HTML, CSS, and JavaScript t
 
 ## Features
 
-- **Color Generation:** The application generates sets of colors with corresponding hex codes based on predefined color schemes or user-defined parameters.
+- **Color Generation:** The application generates sets of colors with corresponding hex codes.
 - **Hex Code Copy:** Users can easily copy the hex code of a color to the clipboard by clicking on the color box.
 - **Responsive Design:** The application is built with a responsive design, ensuring a seamless user experience across various devices and screen sizes.
 
