@@ -15,7 +15,7 @@ To use the Color Generator, follow these steps:
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/your-username/color-generator.git
+   git clone https://github.com/Akshay-K-Bhat/Color-Hex
    ```
 
 2. Open the project directory:
